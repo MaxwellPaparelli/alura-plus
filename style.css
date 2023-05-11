@@ -5,7 +5,7 @@
     --cor-de-fundo: #00030c;
     --fonte-principal: 'Inter';
     --borao-azul-efeito: #3c92fa;
-} /*inserindo as cores utilizadas no projeto em uma variável*/
+}
 
 body {
     background-color: var(--cor-de-fundo);
@@ -13,7 +13,7 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-} /*passando as cores de fundo e das letras no body*/
+}
 
 * {
     margin: 0;
@@ -26,14 +26,14 @@ body {
     background-size: contain;
     align-items: center;
     text-align: center;
-} /*passando e ajustando imagem de fundo desta forma, pois não será "importante" para leitura do usuário*/
+}
 
 .container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 
-} /*ajustando imagem de fundo de forma que ela preencha 100% da tela do navegador*/
+}
 
 .container__botao {
     background-color: var(--borao-azul);
@@ -43,7 +43,7 @@ body {
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
-} /*ajustanto botão que redireciona para um link*/
+}
 
 .container__botao:hover {
     background-color: var(--borao-azul-efeito);
